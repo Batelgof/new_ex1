@@ -58,7 +58,7 @@ public class AppTest {
     @Test
     public void test_5() {
     	String Expected_result="B";
-    	int a=8,b=6;
+    	double a=8,b=6;
     	String mod="reciprocals";
     	String actual_result=ex4.Compare(a, b, mod);
     	assertEquals(Expected_result,actual_result);
